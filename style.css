@@ -120,11 +120,23 @@ footer{
 }
 
 @media screen and (max-width:700px){
+
+
+    .conteudo{
+        width: 500px;
+        overflow: hidden;
+        background-image: url(./imgs/people.jpg);
+        background-size: cover;
+        
+    
+    }
+    
     .title{
-        font-size: 12px;
+        font-size: 0.8rem;
         
     }
     .forms{
+
         border-radius:15px ;
         float: none;
         margin: auto;
@@ -151,9 +163,10 @@ footer{
     footer{
         margin:auto ;
         max-width: 500px;
+        
     }
     .description{
-        margin-left: 35%;
+        margin-left: 32%;
         display: block;
     }
 
